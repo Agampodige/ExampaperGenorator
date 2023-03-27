@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="home_window" stylesheets="@app.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <opaqueInsets>
+      <Insets top="100.0" />
+   </opaqueInsets>
+   <children>
+      <VBox layoutX="220.0" prefHeight="200.0" prefWidth="394.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="-14.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="585.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label text="Wellcome" textFill="WHITE">
+                           <font>
+                              <Font name="Microsoft YaHei Bold" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." textFill="WHITE">
+                           <font>
+                              <Font name="Microsoft YaHei" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <Button mnemonicParsing="false" styleClass="quiz_library_Button" stylesheets="@app.css" text="Quz Library">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="40.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="50.0" left="25.0" right="25.0" top="50.0" />
+               </padding>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="40.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
