@@ -29,7 +29,7 @@ public class AppController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         // Initialization logic goes here
     	try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("home.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Text_Extract.fxml"));
             AnchorPane root = loader.load();
             AnchorPane.setTopAnchor(root, 0.0);
             AnchorPane.setRightAnchor(root, 0.0);
@@ -45,6 +45,21 @@ public class AppController implements Initializable {
     private void handleButtonAction() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("home.fxml"));
+            AnchorPane root = loader.load();
+            AnchorPane.setTopAnchor(root, 0.0);
+            AnchorPane.setRightAnchor(root, 0.0);
+            AnchorPane.setBottomAnchor(root, 0.0);
+            AnchorPane.setLeftAnchor(root, 0.0);
+            viewer.getChildren().setAll(root);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    @FXML
+    private void handle_Text_Extract_ButtonAction() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Text_Extract.fxml"));
             AnchorPane root = loader.load();
             AnchorPane.setTopAnchor(root, 0.0);
             AnchorPane.setRightAnchor(root, 0.0);

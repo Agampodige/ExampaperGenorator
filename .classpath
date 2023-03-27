@@ -11,5 +11,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Rashith Senishka/Downloads/tess4j-5.6.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Rashith Senishka/Downloads/jfoenix-9.0.10 (1).jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
